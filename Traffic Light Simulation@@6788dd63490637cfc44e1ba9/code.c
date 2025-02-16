@@ -5,5 +5,5 @@ int main(){
     scanf("%c",&x);
     if(x=='R')printf("Stop");
     else if (x=='G')printf("Go");
-    else printf("Slow Dowm");
+    else printf("Slow Down");
 }
