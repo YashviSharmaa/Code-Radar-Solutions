@@ -6,6 +6,6 @@ int main(){
     int m;
     scanf("%d",&m);
 
-    if(n>m)printf("n");
-    else{printf("n");}
+    if(n>m)printf("%d",n);
+    else{printf("%d",m);}
 }
