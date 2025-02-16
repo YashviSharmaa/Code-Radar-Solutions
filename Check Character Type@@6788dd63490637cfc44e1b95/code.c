@@ -5,7 +5,7 @@ int main(){
     scanf("%c",&ch);
     if(('A'>=ch || ch<='Z' ) ||('a'>=ch || ch<='z')){
     if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')printf("Vowel");
-    else{printf("Consonent");}
+    else{printf("Consonant");}
     }
-    else{printf("Specail Character");}
+    else{printf("Special Character");}
 }
