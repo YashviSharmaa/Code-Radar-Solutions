@@ -8,5 +8,4 @@ int main(){
     if(x=='+')printf("%d",a+b);
     else if(x=='*')printf("%d",a*b);
     else if(x=='-')printf("%d",a-b);
-    else if(x=='/')printf("%d",a/b);
 }
