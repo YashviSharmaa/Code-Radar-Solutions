@@ -5,5 +5,5 @@ int main(){
     scanf("%d",&n);
     if(n>0){printf("Positive");}
     else if(n==0){printf("Zero");}
-    else if(n<0) {printf("Odd");}
+    else if(n<0) {printf("Negative");}
 }
