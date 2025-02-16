@@ -7,5 +7,5 @@ int main(){
     for(int i=0;i<=a;i--){
         if((a>>i)&1){sum++}
     }
-    printf("%d",sum):
+    printf("%d",sum);
 }
