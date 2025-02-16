@@ -1,8 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    unsigned int a;
+    int a,b;
     scanf("%u",&a);
-    if((a>>32)&1){printf("Set");}
+    b=(a>>31)&1;
+    if(b==1){printf("Set");}
     else{printf("Not Set");}
 }
